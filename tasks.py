@@ -15,12 +15,12 @@ def order_robots_from_RobotSpareBin():
     Creates ZIP archive of the receipts and the images.
     """
 
-    browser.configure(slowmo=800)
+    browser.configure(slowmo=200)
 
-    # open_robot_order_website()
-    # get_orders()
-    # give_up_consitutional_rights()
-    # order_all()
+    open_robot_order_website()
+    get_orders()
+    give_up_consitutional_rights()
+    order_all()
     archieve_receipts()
 
 
