@@ -1,0 +1,5 @@
+C:\ProgramData\robocorp\ht\b60c83a_b1f3c24_1c0bc041\Lib\site-packages\robocorp\tasks\cli.py:65: Warning: Usage of the native system certificate stores can’t be enabled, ensure you have the `robocorp-truststore` dependency installed in the environment and that you're using Python 3.10.12 and pip 23.2.1 at minimum.
+  _inject_truststore()
+2025-08-11 16:22:23,214 - RPA.core.certificates - INFO - Truststore not in use, HTTPS traffic validated against `certifi` package. (requires Python 3.10.12 and 'pip' 23.2.1 at minimum)
+C:\ProgramData\robocorp\ht\b60c83a_b1f3c24_1c0bc041\Lib\site-packages\pypdf\_crypt_providers\_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
